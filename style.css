@@ -1,0 +1,172 @@
+montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: 400;
+  }
+
+div {
+    font-weight: 700;
+    font-family: montserrat;
+}
+
+#logo img{
+    width: 40px;
+}
+
+header {
+background-color: black;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 80px;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+#login-page {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.money {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+#login-page .form {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#login-page .form-control {
+    border: solid 3px black;
+    background-color: #f2f2f2; 
+}
+
+#login-page h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login-page .btn-primary {
+    border-radius: 20px; 
+    background-color: red; 
+    border: none; 
+    padding: 10px 20px; 
+    width: 200px;
+}
+
+.btn-primary:hover {
+    background-color: white; 
+    color:black; 
+}
+
+.box {
+    border: 2px solid #808080; 
+    padding: 10px;
+    margin: 10px; 
+}
+
+#maincard .card {
+    text-align: center;
+    display: flex;
+}
+
+#logo img{
+    width: 40px;
+}
+
+header {
+background-color: black;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 80px;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.navbar-toggler {
+    color: white; 
+}
+
+.p .card-body {
+    
+    size: 1000px;
+}
+
+
+#transaction .form-control {
+    border: solid 3px black;
+    background-color: white; 
+}
+
+#transaction .form-select {
+    border: solid 3px black;
+    background-color: white; 
+}
+
+#transaction .btn-primary {
+    border-radius: 20px; 
+    background-color: red; 
+    border: none; 
+    padding: 5px 3px; 
+    width: 200px;
+}
+
+.income-transaction {
+    border-radius: 10px;
+    border: solid 3px black;
+    background-color: #6cbf73;
+    color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.outcome-transaction {
+    border-radius: 10px;
+    border: solid 3px black;
+    background-color: #e74c3c;
+    color: black;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    border: solid 1px #bdbdbd;
+    border-radius: 5px;
+    background-color: #bdbdbd;
+}
+
+.notification-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: #dc0a0a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    z-index: 1000;
+    display: none; 
+}
+
